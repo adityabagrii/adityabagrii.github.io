@@ -11,15 +11,16 @@ const Experience = () => {
       period: "May 2025 - Aug 2025",
       teamSize: "Team Size - 9",
       achievements: [
-        "Implemented a custom loss function for Google's SigLip vision encoder, improving fracture classification recall by 15%",
-        "Developed custom multi-localization models in Wrist and Hand X-ray images achieving 0.6 Average Precision and classification recall of 96.4%",
-        "Trained multi-class fracture classifier with an accuracy of 91.07% for classifying the detected fractures"
+        "Engineered a custom loss function for Google's SigLip vision encoder specifically for medical imaging, improving fracture classification recall by 19%",
+        "Developed localization models in Wrist and Hand X-ray images achieving 0.6 Average Precision and classification recall of 96.4%",
+        "Trained multi-class fracture classifier with an accuracy of 91.07% for classifying the detected fractures",
+        "Built pipeline for combining detection and classification models to achieve significant accuracy in automated radiology scanning for X-ray images"
       ]
     },
     {
       title: "Undergraduate Researcher - AskAlma - AI Query Assistant",
-      company: "Adarsh Dr. APJ Group",
-      location: "",
+      company: "IIIT Delhi",
+      location: "New Delhi",
       period: "Jun 2025 - May 2025",
       teamSize: "Team Size - 3",
       achievements: [

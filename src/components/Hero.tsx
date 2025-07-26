@@ -44,7 +44,7 @@ const Hero = () => {
           
           <div className="flex justify-center space-x-6 pt-8">
             <a 
-              href="mailto:adityabagri.work@gmail.com" 
+              href="mailto:adityabagrii.work@gmail.com" 
               className="p-3 rounded-full bg-secondary/50 hover:bg-primary/20 transition-all duration-300 hover:shadow-glow"
             >
               <Mail className="h-6 w-6 text-primary" />
@@ -56,7 +56,7 @@ const Hero = () => {
               <Phone className="h-6 w-6 text-primary" />
             </a>
             <a 
-              href="https://linkedin.com/in/aditya-bagri" 
+              href="https://linkedin.com/in/adityabagrii" 
               className="p-3 rounded-full bg-secondary/50 hover:bg-primary/20 transition-all duration-300 hover:shadow-glow"
               target="_blank"
               rel="noopener noreferrer"
@@ -64,7 +64,7 @@ const Hero = () => {
               <Linkedin className="h-6 w-6 text-primary" />
             </a>
             <a 
-              href="https://github.com/adityabagri" 
+              href="https://github.com/adityabagrii" 
               className="p-3 rounded-full bg-secondary/50 hover:bg-primary/20 transition-all duration-300 hover:shadow-glow"
               target="_blank"
               rel="noopener noreferrer"

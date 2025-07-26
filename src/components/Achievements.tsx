@@ -29,7 +29,7 @@ const Achievements = () => {
     },
     {
       title: "PR Team Leadership",
-      description: "Lead various PR teams for events in my college including Odyssey'24, TechIIITD'24 and Esya'24 - IIITD's Techfest",
+      description: "Lead various PR teams for events in my college including Odyssey'24, TedXIIITD'24 and Esya'24 - IIITD's Techfest",
       icon: Users,
       category: "Leadership"
     }
