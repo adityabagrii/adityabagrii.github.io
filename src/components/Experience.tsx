@@ -8,7 +8,7 @@ const Experience = () => {
       title: "AI Scientist - Intern (Research)",
       company: "5C Network",
       location: "Bengaluru",
-      period: "May 2025 - Aug 2025",
+      period: "May 2025 - Present",
       teamSize: "Team Size - 9",
       achievements: [
         "Engineered a custom loss function for Google's SigLip vision encoder specifically for medical imaging, improving fracture classification recall by 19%",
