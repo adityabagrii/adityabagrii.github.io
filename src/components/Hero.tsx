@@ -17,10 +17,10 @@ const Hero = () => {
               Aditya Bagri
             </h1>
             <h2 className="text-xl md:text-2xl text-muted-foreground font-medium">
-              AI Research Scientist & Full-Stack Developer
+              AI Research Scientist & Software Engineer
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              Computer Science & AI student passionate about machine learning, natural language processing, 
+              Computer Science and Artificial Intelligence student passionate about machine learning, natural language processing, 
               and building innovative solutions that make a difference.
             </p>
           </div>
