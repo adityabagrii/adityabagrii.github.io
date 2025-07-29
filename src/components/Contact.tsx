@@ -28,8 +28,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-medium">Email</p>
-                    <a href="mailto:adityabagri.work@gmail.com" className="text-primary hover:underline">
-                      adityabagri.work@gmail.com
+                    <a href="mailto:adityabagrii.work@gmail.com" className="text-primary hover:underline">
+                      adityabagrii.work@gmail.com
                     </a>
                   </div>
                 </div>
