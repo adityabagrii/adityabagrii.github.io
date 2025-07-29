@@ -68,7 +68,7 @@ const Contact = () => {
                   className="w-full justify-start border-primary/30 hover:border-primary hover:bg-primary/10" 
                   asChild
                 >
-                  <a href="https://linkedin.com/in/aditya-bagri" target="_blank" rel="noopener noreferrer">
+                  <a href="https://linkedin.com/in/adityabagrii" target="_blank" rel="noopener noreferrer">
                     <Linkedin className="mr-3 h-5 w-5 text-primary" />
                     LinkedIn Profile
                   </a>
@@ -79,7 +79,7 @@ const Contact = () => {
                   className="w-full justify-start border-primary/30 hover:border-primary hover:bg-primary/10" 
                   asChild
                 >
-                  <a href="https://github.com/adityabagri" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/adityabagrii" target="_blank" rel="noopener noreferrer">
                     <Github className="mr-3 h-5 w-5 text-primary" />
                     GitHub Profile
                   </a>
@@ -90,7 +90,7 @@ const Contact = () => {
                   className="w-full justify-start border-primary/30 hover:border-primary hover:bg-primary/10" 
                   asChild
                 >
-                  <a href="mailto:adityabagri.work@gmail.com">
+                  <a href="mailto:adityabagrii.work@gmail.com">
                     <Mail className="mr-3 h-5 w-5 text-primary" />
                     Send Email
                   </a>
