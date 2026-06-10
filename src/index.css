@@ -551,6 +551,37 @@ a:focus-visible {
   text-underline-offset: 2px;
 }
 
+.publication-list {
+  display: grid;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.publication-card {
+  padding: 14px;
+}
+
+.publication-card h3 {
+  margin-bottom: 8px;
+}
+
+.publication-authors {
+  margin-bottom: 12px !important;
+  color: #333 !important;
+  font-style: italic;
+}
+
+.publication-link {
+  display: inline-flex;
+  align-items: center;
+  color: #1f4e79;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.76rem;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
 .results-layout {
   display: grid;
   grid-template-columns: 1fr;

@@ -13,6 +13,7 @@ import { discussionCards } from './data/discussion'
 import { experience } from './data/experience'
 import { experiments } from './data/experiments'
 import { methodologySteps } from './data/methodology'
+import { publications } from './data/publications'
 import { references } from './data/references'
 import { resultInterpretation, resultMetrics } from './data/results'
 import { sections } from './data/sections'
@@ -109,10 +110,41 @@ function App() {
           </div>
         </Section>
 
+
+        <Section
+          id="publications"
+          eyebrow="Publications"
+          title="2. Publications"
+        >
+          <p className="lead publications-lead">
+            My published research work reflects my interest in building AI systems that
+            are measurable, clinically relevant, and grounded in rigorous evaluation.
+          </p>
+          <div className="publication-list">
+            {publications.map((publication) => (
+              <article className="paper-card publication-card" key={publication.url}>
+                <p className="card-eyebrow">
+                  {publication.venue} · {publication.year}
+                </p>
+                <h3>{publication.title}</h3>
+                <p className="publication-authors">{publication.authors}</p>
+                <a
+                  className="publication-link"
+                  href={publication.url}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View publication
+                </a>
+              </article>
+            ))}
+          </div>
+        </Section>
+
         <Section
           id="related-work"
           eyebrow="Related Work"
-          title="2. Related Work: Experience That Shaped My Direction"
+          title="3. Related Work: Experience That Shaped My Direction"
         >
           <div className="experience-grid">
             {experience.slice(0, 1).map((item) => (
@@ -156,7 +188,7 @@ function App() {
         <Section
           id="methodology"
           eyebrow="Methodology"
-          title="3. Methodology: How I Approach Technical Problems"
+          title="4. Methodology: How I Approach Technical Problems"
         >
           <p className="lead methodology-lead">
             I approach technical problems as both research questions and engineering
@@ -186,7 +218,7 @@ function App() {
         <Section
           id="experiments"
           eyebrow="Experiments"
-          title="4. Experiments: Projects, Prototypes, and Research Systems"
+          title="5. Experiments: Projects, Prototypes, and Research Systems"
         >
           <p className="lead experiments-lead">
             These experiments represent the systems I have built across machine learning,
@@ -210,7 +242,7 @@ function App() {
           </p>
         </Section>
 
-        <Section id="results" eyebrow="Results" title="5. Results: What the Work Produced">
+        <Section id="results" eyebrow="Results" title="6. Results: What the Work Produced">
           <p className="lead results-lead">
             These are the measurable outputs of my work across AI research, medical
             imaging, optical-network ML, software engineering, and technical
@@ -233,7 +265,7 @@ function App() {
         <Section
           id="discussion"
           eyebrow="Discussion"
-          title="6. Discussion: What I Am Optimizing For"
+          title="7. Discussion: What I Am Optimizing For"
         >
           <p className="lead discussion-lead">
             My current direction is to become the kind of engineer-researcher who can
@@ -255,7 +287,7 @@ function App() {
         <Section
           id="conclusion"
           eyebrow="Conclusion"
-          title="7. Conclusion: Let's Build Useful AI Systems"
+          title="8. Conclusion: Let's Build Useful AI Systems"
         >
           <div className="paper-card closing-card">
             <p>
