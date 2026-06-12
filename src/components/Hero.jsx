@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 
 const authors = [
   ['Research Focus', 'Computer Vision, Multimodal AI', 'Medical AI, LLMs', 'Optical Networks'],
-  ['Aditya Bagri', 'B.Tech Computer Science and Artificial Intelligence', 'IIIT Delhi', 'CGPA - 7.79'],
+  ['Aditya Bagri', 'B.Tech Computer Science and Artificial Intelligence', 'IIIT Delhi', 'CGPA - 7.83'],
   ['Role Search', 'AI Research', 'Machine Learning Engineering', 'AI Engineering'],
 ]
 
